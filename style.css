@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: calc(100% /3);
+   padding: 5px;
+}
+
+.product{
+    padding-bottom: 20px;
+    
+}
+img{
+    width: 330px;
+}
+.image{
+    position: relative;
+}
+.label{
+    position: absolute;
+    bottom: 80px;
+
+}
+.discount{
+    background-color: red;
+    color: white;
+}
+.feature{
+    background-color: green;
+    color: white;
+}
+.like{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 13px;
+    right: 11px;
+    padding: 5px;
+    padding-right: 8px;
+}
+.heart:hover {
+color: red;
+}
+
+.now{
+    color: red;
+
+}
+.before{
+    color: black;
+    text-decoration: line-through;
+}
+
+
